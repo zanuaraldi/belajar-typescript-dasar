@@ -1,0 +1,11 @@
+import { CustomerType } from "../src/enum";
+describe('Enum', function () {
+    it('Should support in typescript', function () {
+        const customer = {
+            id: 1,
+            name: "Eko",
+            type: CustomerType.GOLD
+        };
+        console.info(customer);
+    });
+});
